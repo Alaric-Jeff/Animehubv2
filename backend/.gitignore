@@ -1,0 +1,22 @@
+# Ignore Rust build artifacts
+/target/
+Cargo.lock
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Tokio and Actix specific files
+tokio/.cargo/
+actix-web/.cargo/
+
+# Ignore Rust documentation files
+doc/
